@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.form-body {
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 90%;
+}
+
+.conteudo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+}
+
+.img {
+    background: linear-gradient(#1f0256, #891003);
+    height: 100%;
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.welcome {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.direita {
+    height: 100%;
+    width: 60%;
+}
+
+.title {
+    padding-top: 5%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+}
+
+.inputs {
+    padding-top: 3%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5%;
+}
+
+.submit {
+    background-color: rgb(20, 48, 73);
+    color: aliceblue;
+    width: 50%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "DM Sans", sans-serif;
+    font-size: large;
+}
+.submit:hover{
+    background-color: rgb(170, 109, 176);
+    font-size: x-large;
+}
+
+.span{
+    color: red;
+    font-size: smaller;
+    margin-top: -13px;
+}
